@@ -1,0 +1,38 @@
+.article__title {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 0 9px;
+}
+.article__content {
+    margin: 0 1px 18px 0;
+}
+.article__content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.article__content-image {
+    margin: 2px 0;
+}
+.article__content-image--left {
+    float: left;
+    margin-right: 21px;
+    margin-left: 2px;
+}
+.article__content-image--right {
+    float: right;
+    margin: 4px 1px 2px 5px;
+}
+.article__content-image--center {
+    display: block;
+    margin: 0 auto;
+}
+.article__secondary-content {
+    margin-bottom: 12px;
+}
+.article__footer {
+    text-align: center;
+    font-size: 9px;
+    line-height: 11px;
+    margin-bottom: 14px;
+}

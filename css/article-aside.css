@@ -1,0 +1,19 @@
+.article-aside__title {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.article-aside__list:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.article-aside__list-item {
+    float: left;
+    margin: 0 0 14px 70px;
+}
+.article-aside__list-item:nth-child(2n+1) {
+    margin-left: 0;
+}
+.article-aside__image {
+    display: block;
+}

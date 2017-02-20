@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadProRegular.eot');
+    src: url('../fonts/MyriadProRegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MyriadProRegular.woff') format('woff'),
+         url('../fonts/MyriadProRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 2000px;
+    color: #333;
+    font: 12px/1.24em 'MyriadProRegular', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+.main {
+    width: 523px;
+    margin: 200px auto 40px;
+    position: relative;
+    padding-right: 40px;
+    box-sizing: content-box;
+}
+.main__aside {
+    position: fixed;
+    right: 0;
+    bottom: 210px;
+}
+.list {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 523px;
+    height: 100%;
+    border: 2px solid #000;
+    padding: 32px 30px;
+}
+.list:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 38px;
+    height: 31px;
+    width: 107px;
+    border: 2px solid #000;
+    border-radius: 0 10px 10px 0;
+}
+.list--first {
+    position: relative;
+    background: #ebebeb;
+}
+.list--first:after {
+    background: #f68e56;
+    margin-left: -27px;
+}
+.list--second {
+    top: 20px;
+    left: 21px;
+    background: #ccc;
+}
+.list--second:after {
+    background: #39b54a;
+    margin-left: -61px;
+    top: 41px;
+}
+.list--third {
+    top: 39px;
+    left: 40px;
+    background: #acacac;
+}
+.list--third:after {
+    background: #00aeef;
+    margin-left: -93px;
+    top: 46px;
+}
